@@ -1,0 +1,152 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(253, 247, 247),white,rgb(253, 247, 247));
+}
+#nv {
+    position: fixed;
+    width: 100%;
+    height : 60px;
+    background-image: linear-gradient(to right, black , grey);
+}
+
+.left{
+    margin-top : 60px;
+    height:100vh;
+    width: 50%;
+    float: left;
+    background-image: url('bhushan.jpeg'),linear-gradient(to bottom right, rgba(206, 13, 245, 0.247) , rgba(14, 255, 243, 0.377));
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: fixed;
+}
+.logo{
+    text-align: center;
+    padding-top:350px;
+    color: rgba(5, 31, 78, 0.849);
+    font-family: Helvetica;
+}
+
+
+section{
+    float : right;
+    margin-top:56px;
+    margin-bottom: 50px;
+    height:100vh;
+    width: 50%;
+}
+
+.topic{
+    padding-top:20px;
+    padding-left: 30px;
+    float: left;
+    margin-top:56px;
+    text-align: center;
+    color: rgba(0, 89, 255, 0.836);
+}
+.topic2{
+    padding-top:20px;
+    padding-left: 30px;
+    float: left;
+    margin-top:56px;
+    text-align: center;
+    color: rgba(5, 31, 78, 0.849);
+}
+
+.para{
+    padding-top:20px;
+    margin-top:56px;
+    padding-left:150px;
+    padding-right: 20px;
+    text-align: left;
+}
+.para2{
+    padding-top:20px;
+    padding-left:150px;
+    padding-right: 20px;
+    text-align: left;
+}
+.social-menu ul {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #290404;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0077B5;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #f01c27;
+}
+
+.resume{
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    color: rgba(5, 31, 78, 0.849);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    padding-top:2px;
+    padding-left: 30px;
+    float: left;
+    text-align:center;
+    color: rgba(5, 31, 78, 0.849);
+
+}
+
+.desc{
+    padding-top:20px;
+    margin-top:56px;
+    padding-left:150px;
+    padding-right: 20px;
+    text-align: left;
+}
